@@ -1,1 +1,56 @@
-
+.header {
+  height: 568px;
+  background-image: url("../images/cover.jpg");
+  background-position: center;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header__container {
+  background-color: $blue;
+  height: 44px;
+  width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+.header__container--img {
+  height: 14px;
+  width: 16px;
+  margin: auto;
+}
+.header__tittle {
+  font-family: $font-tittle;
+  font-size: 42px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+  width: 290px;
+  height: 110px;
+  margin: 200px 15px 15px;
+}
+.header__second--tittle {
+  font-family: $font-text;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  width: 290px;
+  height: 21px;
+  padding-bottom: 45px;
+}
+.header__scroll {
+  background-color: $white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

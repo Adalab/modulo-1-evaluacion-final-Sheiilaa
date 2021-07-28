@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Roboto:ital,wght@0,100;1,100&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
@@ -18,17 +19,22 @@
   </head>
 
   <body>
-    <header>
-      <a href="https://adalab.es/"
-        ><img
-          src="./assets/images/ico-menu.svg"
-          alt="Adalab page"
-          title="Adalab page"
-      /></a>
-      <h1>Anonumous proxy</h1>
-      <h2>In hac hanitasse platea dictumst.</h2>
-      <div>
-        <img src="./assets/images/ico-scroll-down.svg" alt="scroll-down" />
+    <header class="header">
+      <div class="header__container">
+        <a href="https://adalab.es/"
+          ><img
+            src="./assets/images/ico-menu.svg"
+            alt="Adalab page"
+            title="Adalab page"
+            class="header__container--img"
+        /></a>
+      </div>
+      <h1 class="header__tittle">Anonymous proxy</h1>
+      <h2 class="header__second--tittle">In hac hanitasse platea dictumst.</h2>
+      <div class="header__scroll">
+        <a href="#scroll"
+          ><img src="./assets/images/ico-scroll-down.svg" alt="scroll-down" />
+        </a>
       </div>
     </header>
 
@@ -44,7 +50,7 @@
       </section>
 
       <section>
-        <h2>3 Reasons to purchase</h2>
+        <h2 id="scroll">3 Reasons to purchase</h2>
         <article>
           <h3>Ut sed metus</h3>
           <p>lorem ipsum dolor sit amet, consecteur</p>
