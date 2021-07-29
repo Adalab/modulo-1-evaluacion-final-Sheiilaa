@@ -8,6 +8,11 @@
   @media all and (min-width: 768px) {
     height: 397px;
   }
+  @media all and (min-width: 1200px) {
+    height: 427px;
+
+    margin-right: 85px;
+  }
 }
 .main__second--tittle {
   grid-column: span 3;
@@ -23,6 +28,10 @@
     width: 450px;
     height: 45px;
     font-size: 26px;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 32px;
+    width: 730px;
   }
 }
 .main__second--article1 {
@@ -73,6 +82,9 @@
     font-size: 24px;
     margin-top: 45px;
   }
+  @media all and (min-width: 1200px) {
+    width: 350px;
+  }
 }
 .main__second--article--text {
   width: 180px;
@@ -85,6 +97,10 @@
     font-size: 20px;
     margin-top: 14px;
     margin-bottom: 60px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 353.8px;
+    margin-left: 26.2px;
   }
 }
 .main__second--button {
@@ -108,5 +124,8 @@
   @media all and (min-width: 768px) {
     width: 210px;
     margin-top: 130px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 255px;
   }
 }
