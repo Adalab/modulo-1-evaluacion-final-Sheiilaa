@@ -14,21 +14,17 @@ ul {
   margin: 0;
   padding: 0; }
 
-.code {
-  font-size: 16px;
-  background: #d8d8d8;
-  padding: 0 5px;
-  border-radius: 5px; }
-
 .header {
   height: 568px;
   background-image: url("../images/cover.jpg");
   background-position: center;
+  background-position: center top;
   color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 30px; }
 
 .header__container {
   background-color: #0271bc;
@@ -52,17 +48,18 @@ ul {
   font-size: 42px;
   text-transform: uppercase;
   text-align: center;
-  font-weight: bold;
-  line-height: 1.3;
+  line-height: 55px;
+  text-shadow: 0 2px 3px black;
   width: 290px;
   height: 110px;
-  margin: 200px 15px 15px; }
+  margin: 280px 15px 15px; }
 
 .header__second--tittle {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: normal;
   text-align: center;
+  text-shadow: 0 2px 3p black;
   width: 290px;
   height: 21px;
   padding-bottom: 45px; }
@@ -75,5 +72,53 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.header__scroll--img {
+  width: 20px;
+  height: 11.7px; }
+
+.main {
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.main__first--small {
+  color: #8ccbea;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: capitalize;
+  width: 90px;
+  height: 30px;
+  margin-bottom: 30px; }
+
+.main__firts--tittle {
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  font-weight: bold; }
+
+.main__text {
+  font-family: "Roboto", sans-serif;
+  color: #4a4a4a;
+  font-size: 18px;
+  width: 290px;
+  height: 100px; }
+
+.main__first--boton {
+  width: 76px;
+  height: 45px;
+  border: solid 2px #f26002;
+  border-radius: 22.5px;
+  background-color: #ffffff;
+  margin-bottom: 45px;
+  font-family: "Roboto", sans-serif;
+  color: #f26002;
+  font-size: 20px;
+  line-height: 2.25;
+  font-weight: 800; }
+  .main__first--boton:hover {
+    border: solid 2px #304268;
+    color: #304268;
+    transition: color ease 1.5s, border-color ease 1.5s; }
 
 /*# sourceMappingURL=main.css.map */
