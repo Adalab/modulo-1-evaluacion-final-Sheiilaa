@@ -8,6 +8,11 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  align-content: center;
+  @media all and (min-width: 768px) {
+    align-content: stretch;
+    margin-left: 39px;
+  }
 }
 .main__first--small {
   color: $light-blue;
@@ -16,7 +21,10 @@
   text-transform: capitalize;
   width: 90px;
   height: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 1px;
+  @media all and (min-width: 768px) {
+    width: 216px;
+  }
 }
 .main__firts--tittle {
   font-family: $font-tittle;
@@ -24,6 +32,9 @@
   text-transform: capitalize;
   margin-bottom: 15px;
   font-weight: bold;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+  }
 }
 .main__text {
   font-family: $font-text;
@@ -31,6 +42,11 @@
   font-size: 18px;
   width: 290px;
   height: 100px;
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+    height: 60px;
+    width: 100%;
+  }
 }
 .main__first--button {
   width: 76px;
@@ -48,5 +64,10 @@
     border: solid 2px $dark-blue;
     color: $dark-blue;
     transition: color ease 1.5s, border-color ease 1.5s;
+  }
+  @media all and (min-width: 768px) {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 90px;
   }
 }

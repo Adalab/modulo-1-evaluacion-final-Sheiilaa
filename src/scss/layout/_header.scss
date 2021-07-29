@@ -47,6 +47,11 @@
     height: 212px;
     line-height: 1.33;
   }
+  @media all and (min-width: 1200px) {
+    width: 730px;
+    height: 264px;
+    font-size: 100px;
+  }
 }
 .header__second--tittle {
   font-family: $font-text;
@@ -59,6 +64,11 @@
   padding-bottom: 45px;
   @media all and (min-width: 768px) {
     width: 360px;
+    height: 32px;
+    font-size: 24px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 730px;
     height: 32px;
     font-size: 24px;
   }
