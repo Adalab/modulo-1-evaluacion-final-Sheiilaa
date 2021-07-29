@@ -10,6 +10,9 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+  @media all and (min-width: 768px) {
+    height: 768px;
+  }
 }
 .header__container {
   background-color: $blue;
@@ -38,6 +41,12 @@
   width: 290px;
   height: 110px;
   margin: 280px 15px 15px;
+  @media all and (min-width: 768px) {
+    font-size: 80px;
+    width: 690px;
+    height: 212px;
+    line-height: 1.33;
+  }
 }
 .header__second--tittle {
   font-family: $font-text;
@@ -48,6 +57,11 @@
   width: 290px;
   height: 21px;
   padding-bottom: 45px;
+  @media all and (min-width: 768px) {
+    width: 360px;
+    height: 32px;
+    font-size: 24px;
+  }
 }
 .header__scroll {
   background-color: $white;

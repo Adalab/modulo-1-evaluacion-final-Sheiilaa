@@ -1,6 +1,13 @@
+.main {
+  margin: auto;
+}
 .main__first {
   margin-left: 15px;
   margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .main__first--small {
   color: $light-blue;
