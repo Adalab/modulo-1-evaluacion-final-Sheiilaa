@@ -1,125 +1,67 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+# Welcome to the final project of module 1.
 
-# Adalab web starter kit kajbkjdnmm
-
-Ahoy! Este es nuestro Starter Kit creado en **node y gulp**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
-
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
-
-En el Kit hay 3 tipos de ficheros y carpetas:
-
-- Los ficheros que están sueltos en la raíz del repositorio, como gulpfile.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos.
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
-- Las carpetas `public/` y `docs/`, que son generadas automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/`, los procesa y los genera dentro de `public/` y `docs/`.
-
-## Guía de inicio rápido
-
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) para trabajar con este Starter Kit:
-
-### Pasos a seguir cada vez que queremos arrancar un proyecto desde cero:
-
-1. **Crea tu propio repositorio.**
-1. Descarga este **Starter kit desde GitHub**.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
-1. **Copia todos los ficheros** de este Starter kit en la carpeta raíz de tu repositorio.
-   - Recuerda que debes copiar **también los ficheros ocultos**.
-   - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
-1. **Instala las dependencias** locales ejecutando en la terminal el comando:
+**Attention! this text is in two languages, please forgive me if the English version is misspelled**
+_By Sheila Arenillas._
+In this section we will explain a little bit about how I have faced this final project.
+The first thing I did to tackle this project was **read several times the PDF document and write down in a separate sheet the important things** (for example in which sections I had to use Grid).
+After that I set out to **create and clone my git repository**, after that I **copied the AWSK** (adalab-web-starter-kit) and cleaned it from the folders I wasn't going to use, and to finish with this part I made the
 
 ```bash
-npm install
+npm install and npm start
 ```
 
-### Pasos para arrancar el proyecto:
+Once completed the process of preparing the work environment I uploaded it to git, but before starting to layout **I decided to make a scheme of how to structure my web page** to make it as semantically correct as possible (note that later I had to add some more tags, so it would not be so tedious to style it).
+After this we went to layout the web, **first we have done it in the main html and once finished we have gone to create the partials** and make a migration of the html.
+The decision has been this way to be able to give styles individually to each section of the project, since each partials has its own layout.
+Regarding the styles **I have decided to use the BEN framework for the classes and then the nesting for the Mediaqueries**
+In this process of styling the web we have been complicated especially in the footer part, first with the heart icon and second to move this to tablet, after much effort, I managed to solve these problems.
+Finally, **I decided to make the bonus of the footer button animation**, in this case I wanted to do something quite simple, as I consider that something very overloaded could displease the consumer of the web and even get tired.
+Another problem I had with this project was to deploy the page in git pages, because it didn't work and I needed support.
 
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
+**Regarding the parts of this project**.
+We are be able to observe that there is a main html and this is divided in four partials, it is possible to emphasize that in the case of the main, this has been divided in two, since we were going to use different styles. Also it is possible to emphasize that the styles are also divided, each partial has its layout, besides having two layout more, one for the reset and another one for the variables.
+**Regarding the technologies.**
+The technologies used have been Html and Sass (which is then compiled to css).
+It is important to take into account the use of Sass since in case you want to observe the code or modify it you would have to have this technology in your computer; for the rest there would be no problem, since it is not necessary to install anything else.
+**How to run the web page.**
+The way to run the project is quite simple, just access it from this GitHub, and we also provide it here below:
+[Project](http://beta.adalab.es/modulo-1-evaluacion-final-Sheiilaa/)
+That said I hope you enjoy the project as much as I do, we recommend that you _observe the buttons and links._
+To finish I want to quote a phrase of Marie Curie with which I have felt really represented.
+As Marie Curie said:
+
+> Nothing in life is to be feared, only to be understood.
+
+# Bienvenidos al proyecto final del modulo 1.
+
+_Por Sheila Arenillas_
+En este apartado les explicaremos un poco acerca de como he afrontao este proyecto final.
+Lo primero que hice para afrontar este proyecto fue **leer varias veces el documento en PDF y apuntar en una hoja aparte las cosas importantes** (como por ejemplo en que secciones habia que usar Grid).
+Después de esto me dispuse a **crear y clonar mi repositorio de git**, a continuación de esto **copie el AWSK** (adalab-web-starter-kit) y lo limpie de las carpetas que no iba a usar, y para terminar con esta parte hice el
 
 ```bash
-npm start
+npm install y npm start
 ```
 
-Este comando:
+Una vez ya completado el proceso de preparar el entorno de trabajo lo subi a git, pero antes de empezar a maquetar **decidí hacerme un esquema de como estructurar mi pagina web** para que fuera lo mas correcto a nivel semántico (destacar que después tuve que añadir alguna etiqueta mas, para que no fuera tan tedioso darle estilos).
 
-- **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
-- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
-- También **procesa los ficheros** HTML, SASS / CSS y JS y los **genera y guarda en la carpeta `public/`**. Por ejemplo:
-  - Convierte los ficheros SASS en CSS.
-  - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
+Después de esto pasamos a maquetar la web, primero lo **hemos hecho en el html principal y una vez terminado hemos pasado a crear los partials** y a hacer una migración del html.
+La decisión ha sido esta para asi poder ir dando estilos de forma individual a cada sección del proyecto, ya que cada partials tiene su layout.
+Respecto a los estilos **he decidido usar el marco de trabajo BEN para las clases y luego las anidaciones para las Mediaqueries.**
+En este proceso de dar estilos a la web se nos ha complicado sobretodo en la parte del footer, primero con el icono del corazón y segundo al pasar este a tablet, después de mucho esfuerzo, consegui solventar estos problemas.
+Para finalizar, **decidí hacer el bonus de la animación del boton del footer**, en este caso quise hacer algo bastante sencillo, ya que considero que algo muy recargado podría disgustar al consumidor de la web y hasta llegar a cansar.
+Otro de los problemas con los que me he encontrado con este proyecto ha sido el desplegar la página en git pages, ya que no terminaba de funcionar y he necesitado soporte.
 
-Después de ejecutar `npm start` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
+**Respecto a las partes de este proyecto.**
+Podremos observar que hay un html principal y este está dividido en cuatro partials, cabe destacar que en el caso del main, este ha sido dividido en dos, ya que ibamos a usar distintos estilos. También cabe destacar que los estilos estan también divididos, cada partial tiene su layout, además de tener dos layout mas, uno para el reset y otro para las variables.
+**Respecto a las técnologías.**
+Las tecologías usadas han sido Html y Sass (que luego se compila a css).
+Es importante tener en cuenta el uso de Sass ya que en caso de querer observar el código o modificarlo tendría que tener esta tecnología en su ordenador; por todo lo demas no abría poblema, ya que no hace falta instalar nada más.
+**Como ejercutar la página web.**
+La forma de ejecutar el proyecto es bastante sencilla, solo tiene que acceder a el desde este GitHub, y tambien se lo facilitamos aqui abajo:
+[Proyecto](http://beta.adalab.es/modulo-1-evaluacion-final-Sheiilaa/)
+Dicho esto espero que disfrute de el proyecto tanto como yo, le recomendamos que _observe los botones y los enlaces._
+Para finalizar quiero citar una frase de Marie Curie con el cual me he sentido realmente representada.
+Como dijo Marie Curie:
 
-### Pasos para publicar el proyecto en GitHub Pages:
-
-Para generar tu página para producción ejecuta el comando:
-
-```bash
-npm run docs
-```
-
-Y a continuación:
-
-1. Sube a tu repo la carpeta `docs/` que se te acaba de generar.
-1. Entra en la pestaña `settings` de tu repo.
-1. Y en el apartado de GitHub Pages activa la opción **master branch /docs folder**.
-1. Y ya estaría!!!
-
-Además, los comandos:
-
-```bash
-npm run push-docs
-```
-
-o
-
-```bash
-npm run deploy
-```
-
-son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón. Te recomendamos ver el fichero `package.json` para aprender cómo funciona.
-
-## Flujo de archivos con Gulp
-
-Estas tareas de Gulp producen el siguiente flujo de archivos:
-
-![Gulp flow](./gulp-flow.png)
-
-## `gulpfile.js` y `config.json`
-
-Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
-
-De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
-
-## Estructura de carpetas
-
-La estructura de carpetas tiene esta pinta:
-
-```
-src
- ├─ api // los ficheros de esta carpeta se copian en public/api/
- |  └─ data.json
- ├─ images
- |  └─ logo.jpg
- ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
- |  ├─ main.js
- |  └─ events.js
- ├─ scss
- |  ├─ components
- |  ├─ core
- |  ├─ layout
- |  └─ pages
- └─ html
-    └─ partials
-```
-
-> **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
-
-## Vídeotutoriales del Starter kit
-
-- [Qué es, trabajar con la versión de desarrollo y rutas relativas](https://www.youtube.com/watch?v=XwvhXvBijos)
-- [Migración de un proyecto, trabajar con la versión de producción y GitHub Pages](https://www.youtube.com/watch?v=qqGClcgt9Uc)
-- [Motor de plantillas](https://www.youtube.com/watch?v=4GwXOJ045Zg)
-
-## Falta algo?
-
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
+> Nada en la vida debe ser temido, solamente debe ser entendido.
