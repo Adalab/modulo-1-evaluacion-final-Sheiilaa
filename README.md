@@ -1,7 +1,9 @@
 # Welcome to the final project of module 1.
 
 **Attention! this text is in two languages, please forgive me if the English version is misspelled**
+
 _By Sheila Arenillas._
+
 In this section we will explain a little bit about how I have faced this final project.
 The first thing I did to tackle this project was **read several times the PDF document and write down in a separate sheet the important things** (for example in which sections I had to use Grid).
 After that I set out to **create and clone my git repository**, after that I **copied the AWSK** (adalab-web-starter-kit) and cleaned it from the folders I wasn't going to use, and to finish with this part I made the
