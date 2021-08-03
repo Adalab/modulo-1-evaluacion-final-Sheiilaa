@@ -107,15 +107,19 @@
   grid-column: span 3;
   width: 184px;
   height: 45px;
-  border-radius: 22.5px;
-  background-color: $bright-orange;
   border: solid 2px $bright-orange;
-  color: $white;
+  border-radius: 22.5px;
+  background-color: $white;
+  // border-radius: 22.5px;
+
+  // background-color: $bright-orange;
+  // border: solid 2px $bright-orange;
+  color: $bright-orange;
   font-family: $font-text;
   font-size: 20px;
   font-weight: 500;
   margin: auto;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   &:hover {
     border: solid 2px $dark-blue;
     background-color: $dark-blue;
@@ -124,6 +128,7 @@
   @media all and (min-width: 768px) {
     width: 210px;
     margin-top: 130px;
+    margin-bottom: 60px;
   }
   @media all and (min-width: 1200px) {
     width: 255px;
